@@ -1,7 +1,12 @@
 package io.cucumber.core;
 
 import java.util.HashMap;
+
+import org.openqa.selenium.HasAuthentication;
+import org.openqa.selenium.UsernameAndPassword;
 import org.openqa.selenium.chrome.ChromeDriver;
+import java.net.URI;
+import java.util.function.Predicate;
 
 public class Manager {
 
@@ -21,4 +26,6 @@ public class Manager {
   public void setDriver(ChromeDriver driver) {
     this.driver = driver;
   }
+
+
 }
